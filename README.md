@@ -27,8 +27,8 @@ identify permissions and other errors and is highly recommended for the first
 time you use `cmgr` on a system.
 
 ```sh
-wget https://github.com/picoCTF/cmgr/releases/latest/download/examples.tar.gz
-wget https://github.com/picoCTF/cmgr/releases/latest/download/cmgr_`uname -s | tr '[:upper:]' '[:lower:]'`_amd64.tar.gz
+wget https://github.com/CyLabAcademy/cmgr/releases/latest/download/examples.tar.gz
+wget https://github.com/CyLabAcademy/cmgr/releases/latest/download/cmgr_`uname -s | tr '[:upper:]' '[:lower:]'`_amd64.tar.gz
 tar xzvf examples.tar.gz
 cd examples
 tar xzvf ../cmgr_`uname -s | tr '[:upper:]' '[:lower:]'`_amd64.tar.gz
